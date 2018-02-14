@@ -1,7 +1,7 @@
-adb shell input text JC
+adb shell input text <first name>
 adb shell input keyevent 20
-adb shell input text Test
+adb shell input text <last name>
 adb shell input keyevent 20
-adb shell input text jared.meier+021418_1000@feeln.com
+adb shell input text <email>
 adb shell input keyevent 20
-adb shell input text 
+adb shell input text <password>
