@@ -20,7 +20,7 @@ do
     ### uninstall for android tv package
     adb -s $(eval echo "\$$DEVICEID") uninstall com.feeln.androidapp
     echo "--> Installing SVOD"
-	adb -s $(eval echo "\$$DEVICEID") install mobile-androidFlavor-release.apk
+	adb -s $(eval echo "\$$DEVICEID") install <name of package goes here>
 
 done
 
