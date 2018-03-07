@@ -17,4 +17,5 @@ adb -s $IPADDRESS shell am start -a android.intent.action.VIEW -n com.feeln.andr
 # Wait 120 seconds
 sleep 120
 
+# Deeplink to a Series detail page
 adb -s $IPADDRESS shell am start -a android.intent.action.VIEW -n com.feeln.androidapp/com.feeln.android.tv.activity.SplashActivity -f 335544320 -e content_id s$SERIESID
