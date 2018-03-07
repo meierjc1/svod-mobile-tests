@@ -2,7 +2,7 @@
 
 FIRSTNAME=JC
 LASTNAME=TEST
-EMAIL=jared.meier+030618_1445@feeln.com
+EMAIL=jared.meier+030718_1430@feeln.com
 PASSWORD=Jaredtest1
 
 adb shell input text $FIRSTNAME
